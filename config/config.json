@@ -1,0 +1,18 @@
+{
+  "production": {
+    "dbString" : "DB_URL",
+    "url": "http://10.244.49.238:3000"
+  },
+  "development" : {
+    "dbString" : "DB_URL",
+    "url": "http://10.244.49.238:3000"
+  },
+  "statusMsgs": {
+    "202": "Request Accepted",
+    "400": "Oops! You seem to have sent some wrong data",
+    "401": "Auth failed.",
+    "403": "Sorry! You don't have access",
+    "404": "Couldn't find the requested resource",
+    "500": "Sorry, something went wrong. This one is on us"
+  }
+}

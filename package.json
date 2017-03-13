@@ -1,0 +1,39 @@
+{
+  "name": "express-skeleton",
+  "version": "0.8.0",
+  "private": false,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha **/*.spec.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "express": "~4.14.1",
+    "morgan": "~1.7.0"
+  },
+  "description": "Skeleton to get started with express API",
+  "main": "bin/www",
+  "keywords": [
+    "API",
+    "Express",
+    "Node",
+    "Skeleton"
+  ],
+  "author": "Aaron de Miranda Colaco",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aarongoa/express-skeleton.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aarongoa/express-skeleton/issues"
+  },
+  "homepage": "https://github.com/aarongoa/express-skeleton#readme"
+}
