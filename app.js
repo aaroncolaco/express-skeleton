@@ -5,11 +5,12 @@ const cookieParser = require('cookie-parser');
 const express = require('express');
 const logger = require('morgan');
 
+const config = require('./config/');
 const users = require('./users/router');
 
 const app = express();
 
-app.use(logger('dev'));
+app.use(config.getEnv() === 'development' ? logger('dev') : logger('combined'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
