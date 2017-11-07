@@ -1,5 +1,7 @@
 'use strict';
 
+const bin = require('../bin/www');
+
 const chai = require('chai');
 const chaiHttp = require('chai-http');
 const expect = chai.expect;
